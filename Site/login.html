@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Área do Usuário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styleLogin.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="centering">
+        <form class="my-form">
+            <div class="login-welcome-row">
+                <img class="login-welcome" src="IconLogin/usuario-do-circulo.svg" alt="Usuario">
+           
+                <h1>Área do Usuário!</h1>
+            </div action="conectionDB.php">
+            <div class="text-field">
+                <label for="email">Usuário</label>
+                <input aria-label="user" type="user" id="user" name="user" placeholder="Seu Nome de Usuário" required>
+                <img alt="user" title="user" src="IconLogin/email.svg">
+            </div>
+            <div class="text-field">
+                <label for="password">Senha</label>
+                <input id="password" type="password" aria-label="Password" name="password" placeholder="Sua Senha"
+                    title="Minimo 6 caracters, 1 letra, 1 número e 1 simbolo." required>
+                <img alt="Senha" title="Senha" src="IconLogin/password.svg">
+            </div>
+
+            <div class="login-social-ico">
+                <button type="button" class="my-form__button-social" value="Login com Facebook">
+                    <img class="social-icon" alt="Login com Facebook" title="Login com Facebook" src="IconSocial/facebook-480.svg">
+                </button>
+                <button type="button" class="my-form__button-social" value="Login com Google">
+                    <img class="social-icon" alt="Login com Google" title="Login com Google" src="IconSocial/google-480.svg">
+                </button>
+                <button type="button" class="my-form__button-social" value="Login com Twitter">
+                    <img class="social-icon" alt="Login com Twitter" title="Login com Twitter" src="IconSocial/twitter-480.svg">
+                </button>
+            </div>
+            <input type="submit" class="my-form__button" value="Login" onclick="loginUsuario()">
+            <div class="my-form__actions">
+                <div class="my-form__row">
+                    <span>Esqueceu sua senha ou e-mail?</span>
+                    <a href="#" title="Recupere sua senha/e-mail">Clique Aqui</a>
+                </div>
+                <div class="my-form__signup">
+                    <span>É novo por aqui? </span>
+                    <a href="cadastro.html" title="Criei uma nova conta">Criar Conta</a>
+                </div>
+                <div class="my-form__signup">
+                     <a href="index.html" title="Volta a Pagína Inícial">Pagína Inicial</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="JavaScript/scriptLogin.js"></script>
+</body>
+
+</html>

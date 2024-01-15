@@ -1,0 +1,74 @@
+Cadastrou 1
+Cadastrou 2
+Cadastrou 3
+Cadastrou 5
+Cadastrou 10
+Cadastrou 25
+Cadastrou 50
+Cadastrou 100
+Cadastrou 500
+Cadastrou 1000
+
+Viu/Leu/Ouviu/Jogou 1
+Viu/Leu/Ouviu/Jogou 2
+Viu/Leu/Ouviu/Jogou 3
+Viu/Leu/Ouviu/Jogou 5
+Viu/Leu/Ouviu/Jogou 10
+Viu/Leu/Ouviu/Jogou 25
+Viu/Leu/Ouviu/Jogou 50
+Viu/Leu/Ouviu/Jogou 100
+Viu/Leu/Ouviu/Jogou 500
+Viu/Leu/Ouviu/Jogou 1000
+Viu/Leu/Ouviu/Jogou 2000
+Viu/Leu/Ouviu/Jogou 3000
+Viu/Leu/Ouviu/Jogou 5000
+Viu/Leu/Ouviu/Jogou 10000
+Viu/Leu/Ouviu/Jogou 50000
+
+Comentou 1 
+Comentou 2
+Comentou 3
+Comentou 5
+Comentou 10
+Comentou 50
+Comentou 100
+Comentou 500
+Comentou 1000
+
+Criou 1 Lista
+Criou 2 Lista
+Criou 3 Lista
+Criou 5 Lista
+Criou 20 Lista
+Criou 100 Lista
+
+Favoritou
+
+Indicador
+
+Avaliou
+
+Melhorou Informações
+
+Amigo
+
+Fã
+
+Famoso
+
+---------------------------- SELOS UNICOS
+Noticial
+
+Rebobina
+
+Não Quer Ver
+
+Facebook
+
+Twitter
+
+Youtube
+
+Instagram
+
+Google+

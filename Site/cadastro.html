@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styleCadastro.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="centering">
+        <form class="my-form">
+            <div class="login-welcome-row">
+                <img class="login-welcome" src="IconLogin/usuario-do-circulo.svg" alt="Usuario">
+                <h1>Cadastro</h1>
+            </div>
+
+            <div class="login-social-ico">
+                <button type="button" class="my-form__button-social" value="Login com Facebook">
+                    <img class="social-icon" alt="Login com Facebook" title="Login com Facebook" src="IconSocial/facebook-480.svg">
+                </button>
+                <button type="button" class="my-form__button-social" value="Login com Google">
+                    <img class="social-icon" alt="Login com Google" title="Login com Google" src="IconSocial/google-480.svg">
+                </button>
+                <button type="button" class="my-form__button-social" value="Login com Twitter">
+                    <img class="social-icon" alt="Login com Twitter" title="Login com Twitter" src="IconSocial/twitter-480.svg">
+                </button>
+            </div>
+
+            <div>
+                    <input type="file" id="foto-perfil" name="foto-perfil">
+
+            </div>
+
+            <div class="d2">
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <input type="text" name="user" placeholder="Nome de usuário" required>
+            </div>
+
+            <div class="d2">
+                <input type="date" name="dataNascimento" placeholder="Data de nascimento" required>
+                <select name="genero" required>
+                    <option value="">Gênero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <input type="phone" name="phone" placeholder="(00) 11111-2222" required>
+            </div>
+
+            <div class="d2">
+                <input type="text" name="codigoPostal" placeholder="Código Postal" required>
+                <input type="text" name="cidade" placeholder="Cidade" required>
+                <select name="estado" required>
+                    <option value="">Estado</option>
+                    <option value="ac">Acre</option>
+                    <option value="al">Alagoas</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ap">Amapá</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceará</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="go">Goiás</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="pa">Pará</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="rr">Roraima</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="se">Sergipe</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="to">Tocantins</option>
+                    
+                </select>
+                <select name="pais" required>
+                    <option value="">País</option>
+                    <option value="br">Brasil</option>                    
+                </select>
+            </div>
+
+            <div class="d2">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="email" name="emailConfirmacao" placeholder="Repita seu email" required>
+            </div>
+
+            <div class="d2">
+                <input type="password" name="senha" placeholder="Senha" required>
+                <input type="password" name="senhaConfirmacao" placeholder="Repita sua senha" required>
+            </div>
+
+                <input type="submit" class="my-form__button" value="Cadastrar">
+            </form>
+            
+    </div>
+    <script src="JavaScript/scriptLogin.js"></script>
+</body>
+
+</html>

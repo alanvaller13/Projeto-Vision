@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+  --primary-color: rgb(255, 255, 255) ;
+  --primary-color-dark: #c40707;
+  --button-color: #4000ff;
+  --button-color-shadow: #ffffff30;
+  --text-color: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+
+.aba {
+  background-color:var(--text-color);
+  width: 100% !important;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.background {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  opacity: 0.5;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 113vh;
+  background-color: var(--primary-color);
+  width: 18rem;
+  padding: 1rem 0.85rem;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.5s ease-in-out;
+}
+
+.sidebar-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.sidebar-top .logo {
+  position: relative;
+  width: 50px;
+  margin-right: 1.45rem;
+  left: -1px;
+}
+
+.sidebar-top h2 {
+  padding-left: 0.5rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.expand-btn {
+  position: absolute;
+  top: 55%;
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  background-color: var(--button-color);
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px -3px var(--button-color-shadow);
+  right: -3rem;
+  transform: translateY(-50%) translateX(-8px);
+  opacity: 0.1;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+nav:hover .expand-btn,
+.expand-btn.hovered {
+  transform: translateY(-50%) translateX(0px);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.sidebar-links ul {
+  list-style-type: none;
+  position: relative;
+}
+
+.sidebar-links li {
+  position: relative;
+}
+
+.sidebar-links li a {
+  padding: 12px;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  width: 26px;
+  height: 26px;
+  margin: auto;
+}
+
+.sidebar-links .link {
+  margin-left: 40px;
+}
+
+.sidebar-links .active {
+  width: 100%;
+  text-decoration: none;
+  background-color: var(--primary-color-dark);
+  transition: all 100ms ease-in;
+  border-radius: 10px;
+}
+
+.collapsed nav {
+  width: 80px;
+}
+
+.collapsed .hide {
+  opacity: 0;
+  pointer-events: none;
+  transition-delay: 0s;
+}
+
+.collapsed .expand-btn img {
+  transform: rotate(-180deg);
+}
+
+.bodyIndex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.div {
+  margin-top: 25px;
+  margin-left: 40px;
+  font-size: 25px;
+  color: #3d3c3c;
+}
+
+#div {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.containers {
+  max-width: 930px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: rgba(0, 0, 0, 0.133) solid 1px;
+}
+
+h3:hover {
+  widows: 0 6px 12px 0 rgba(0, 0, 0, 0.0), 0 -6px 6px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.post {
+  width: 100% !important;
+  height: 150px;
+  margin-top: 15px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+  background-color:var(--text-color);
+  width: 100% !important;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
