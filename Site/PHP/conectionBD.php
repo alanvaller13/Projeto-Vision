@@ -8,9 +8,10 @@
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Verificar conexão
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+    if($conn -> connect_error){
+        echo 'Conexão Falhou '.$conn -> connect_error;
+    }
+    else{
+        echo "Você está conectado.";
     }
 ?>
-
-<?php 
