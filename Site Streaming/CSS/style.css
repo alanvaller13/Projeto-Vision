@@ -22,7 +22,12 @@
   color: white;
   text-align: center;
   padding: 5px;
-
+}
+.liaba{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .background {
@@ -42,7 +47,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  height: 113vh;
+  height: 122vh;
   background-color: var(--primary-color);
   width: 18rem;
   padding: 1rem 0.85rem;
@@ -141,7 +146,7 @@ nav:hover .expand-btn,
 }
 
 .collapsed nav {
-  width: 80px;
+  width: 90px;
 }
 
 .collapsed .hide {
@@ -186,7 +191,7 @@ h3:hover {
 
 .post {
   width: 100% !important;
-  height: 150px;
+  height: 200px;
   margin-top: 15px;
   text-align: center;
   position: relative;
